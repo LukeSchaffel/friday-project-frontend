@@ -1,0 +1,26 @@
+.profileCard {
+  border: 1px solid black;
+  max-width: 50%;
+  padding: 1rem;
+  border-radius: 1%;
+  margin: 1rem auto;
+  box-shadow: 10px 10px;
+
+}
+.profileCard header{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn {
+  width: 30%;
+  margin: 3px;
+}

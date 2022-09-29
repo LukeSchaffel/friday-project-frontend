@@ -1,0 +1,17 @@
+.container {
+  border: .5rem solid rgb(33,37,41);
+  max-width: 20%;
+  margin: 1rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px;
+  }
+
+  .inputContainer {
+    margin: 2rem;
+  }
+
+  .buttonDiv {
+    display: flex;
+  }
