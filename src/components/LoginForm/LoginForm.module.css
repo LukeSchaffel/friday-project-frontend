@@ -3,15 +3,12 @@
   width: 20rem;
   padding: 1rem;
   margin: 0 auto;
-  border-radius: 4px;
+  border-radius: 10px;
   
 }
 
 .container:hover {
-  background-color: rgb(255, 0, 0);
-  -webkit-animation:spin 10s linear infinite;
-  -moz-animation:spin 10s linear infinite;
-  animation:spin 10s linear infinite;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .container input {
@@ -20,6 +17,7 @@
   height: 40px;
   border: none;
   outline: none;
+  border-radius: 10px;
 }
 
 .buttonContainer {

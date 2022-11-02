@@ -31,7 +31,6 @@ const LoginForm = () => {
   return (
     <div className={styles.container}>
       <h3>Log In</h3>
-    
     <form
       autoComplete="off"
       onSubmit={handleSubmit}
