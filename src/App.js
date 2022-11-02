@@ -10,6 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getAllUsers } from './actions/auth';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import UpdateUser from './pages/UpdateUser/UpdateUser';
+import Loader from './components/Loader/Loader';
 
 
 
@@ -35,6 +36,7 @@ function App() {
           
 
       </Routes>
+      <Loader/>
     </div>
   );
 }
