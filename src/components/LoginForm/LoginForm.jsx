@@ -29,10 +29,13 @@ const LoginForm = () => {
   }
 
   return (
+    <div className={styles.container}>
+      <h3>Log In</h3>
+    
     <form
       autoComplete="off"
       onSubmit={handleSubmit}
-      className={styles.container}
+      
     >
       <div className={styles.inputContainer}>
         <label htmlFor="email" className={styles.label}>Email</label>
@@ -56,13 +59,14 @@ const LoginForm = () => {
           onChange={handleChange}
         />
       </div>
-      <div>
+      <div className={styles.buttonContainer}>
         <button className={styles.button}>Log In</button>
         <Link to="/">
-          <button>Cancel</button>
+          <button className={styles.button}>Cancel</button>
         </Link>
       </div>
     </form>
+    </div>
   )
 }
 

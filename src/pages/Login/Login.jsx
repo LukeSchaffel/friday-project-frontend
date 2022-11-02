@@ -10,8 +10,8 @@ const LoginPage = props => {
   }
 
   return (
-    <main >
-      <div className={styles.container}>
+    <main>
+      <div>
         <h1>Log In</h1>
         <p>{message}</p>
         <LoginForm
