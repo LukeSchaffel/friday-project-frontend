@@ -6,7 +6,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import { RiLoginCircleFill } from 'react-icons/ri';
 import { FaSignOutAlt, FaHome } from "react-icons/fa";
 import { MdOutlineDashboardCustomize, MdOutlineCreate } from "react-icons/md";
-
+import Hamburger from '../Hamburger/Hamburger';
 
 const NavBar = () => {
   const dispatch = useDispatch()

@@ -11,6 +11,7 @@ import { getAllUsers } from './actions/auth';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import UpdateUser from './pages/UpdateUser/UpdateUser';
 import Loader from './components/Loader/Loader';
+import Hamburger from './components/Hamburger/Hamburger';
 
 
 
@@ -36,7 +37,7 @@ function App() {
           
 
       </Routes>
-      <Loader/>
+      
     </div>
   );
 }
